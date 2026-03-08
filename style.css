@@ -1,0 +1,52 @@
+body{
+  background-color: violet;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+#head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+#head h2{
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+#head nav a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+#hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  flex-direction: column;
+}
+
+#features{
+  display: flex;
+  justify-content:flex-start;
+  align-items: start;
+  flex-direction: column;
+}
+.feature{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#about{
+  display: flex;
+  justify-content: flex-start;
+}
